@@ -1,0 +1,293 @@
+2020-09-22 01:11:33 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:11:33 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:11:33 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:11:33 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:11:33 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:11:33 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:11:33 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:11:35 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:11:35 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:11:36 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:11:36 INFO  CucumberHooks:61 - Number of completed tests1
+2020-09-22 01:11:36 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:11:36 INFO  CucumberHooks:63 - Passed tests: 1 Failed tests: 0
+2020-09-22 01:13:24 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:13:24 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:13:24 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:13:24 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:13:24 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:13:24 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:13:24 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:13:25 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:13:25 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:13:27 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:13:27 INFO  CucumberHooks:61 - Number of completed tests1
+2020-09-22 01:13:27 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:13:27 INFO  CucumberHooks:63 - Passed tests: 1 Failed tests: 0
+2020-09-22 01:14:53 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:14:53 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:14:53 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:14:53 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:14:53 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:14:53 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:14:53 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:14:54 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:14:54 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:14:55 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:14:56 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:14:56 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:14:56 INFO  CucumberHooks:63 - Passed tests: 1, Failed tests: 0
+2020-09-22 01:19:14 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:19:14 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:19:14 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:19:14 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:19:14 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:19:14 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:19:14 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:19:15 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:19:15 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:19:17 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:19:17 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:19:17 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:19:17 INFO  CucumberHooks:63 - Passed tests: 1, Failed tests: 0
+2020-09-22 01:19:36 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:19:36 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:19:36 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:19:36 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:19:36 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:19:36 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:19:36 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:19:37 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:19:37 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:19:38 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:19:38 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:19:38 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:19:38 INFO  CucumberHooks:63 - Passed tests: 1, Failed tests: 0
+2020-09-22 01:20:03 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:20:03 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:20:03 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:20:03 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:20:03 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:20:03 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:20:03 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:20:04 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:20:04 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:20:06 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:20:06 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:20:06 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:20:06 INFO  CucumberHooks:63 - Passed tests: 1, Failed tests: 0
+2020-09-22 01:20:36 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:20:36 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:20:36 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:20:36 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:20:36 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:20:36 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:20:36 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:20:38 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:20:38 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:20:39 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:20:39 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:20:39 INFO  CucumberHooks:62 - Status of test 1 is: FAILED
+2020-09-22 01:20:39 INFO  CucumberHooks:63 - Passed tests: 0, Failed tests: 1
+2020-09-22 01:21:26 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:21:26 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:21:26 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:21:26 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:21:26 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:21:26 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:21:26 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:21:27 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:21:27 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:21:29 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:21:29 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:21:29 INFO  CucumberHooks:62 - Status of test 1 is: FAILED
+2020-09-22 01:21:29 INFO  CucumberHooks:63 - Passed tests: 0, Failed tests: 1
+2020-09-22 01:22:27 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:22:27 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:22:27 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:22:28 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:22:28 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:22:28 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:22:28 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:22:29 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:22:29 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:22:30 INFO  CucumberHooks:68 - ::: Ending automation :::
+2020-09-22 01:22:31 INFO  CucumberHooks:61 - Number of completed tests: 1
+2020-09-22 01:22:31 INFO  CucumberHooks:62 - Status of test 1 is: PASSED
+2020-09-22 01:22:31 INFO  CucumberHooks:63 - Passed tests: 1, Failed tests: 0
+2020-09-22 01:24:30 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 01:24:30 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 01:24:30 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 01:24:31 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 01:24:31 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 01:24:31 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 01:24:31 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 01:24:32 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 01:24:32 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 01:24:33 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 01:24:33 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 01:24:33 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 01:24:33 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 09:46:32 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 09:46:32 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 09:46:32 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 09:46:32 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 09:46:32 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 09:46:32 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 09:46:32 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 09:46:34 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 09:46:34 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 09:46:36 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 09:46:36 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 09:46:36 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 09:46:36 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:20:59 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:21:00 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:21:00 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:21:00 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:21:00 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:21:00 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:21:00 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:21:01 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:21:01 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:21:03 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:21:03 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:21:03 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:21:03 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:29:31 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:29:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:29:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:29:31 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:29:31 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:29:31 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:29:31 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:29:33 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:29:33 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:29:34 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:29:34 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:29:34 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:29:34 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:35:32 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:35:32 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:35:32 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:35:32 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:35:32 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:35:32 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:35:32 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:35:33 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:35:33 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:35:35 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:35:35 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:35:35 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:35:35 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:36:31 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:36:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:36:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:36:31 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:36:31 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:36:31 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:36:31 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:36:32 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:36:32 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:36:34 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:36:34 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:36:34 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:36:34 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:39:36 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:39:36 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:39:36 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:39:36 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:39:36 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:39:36 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:39:36 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:39:38 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:39:38 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:39:40 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:39:40 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:39:40 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:39:40 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:43:52 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:43:52 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:43:52 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:43:52 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:43:52 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:43:52 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:43:52 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:43:53 INFO  CucumberHooks:40 - Browser: chrome
+2020-09-22 10:43:53 INFO  CucumberHooks:41 - url: http://zero.webappsecurity.com/
+2020-09-22 10:43:55 INFO  CucumberHooks:66 - ::: Ending automation :::
+2020-09-22 10:43:55 INFO  CucumberHooks:59 - Number of completed tests: 1
+2020-09-22 10:43:55 INFO  CucumberHooks:60 - Status of test 1 is: FAILED
+2020-09-22 10:43:55 INFO  CucumberHooks:61 - Passed tests: 0, Failed tests: 1
+2020-09-22 10:54:42 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 10:54:42 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 10:54:42 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 10:54:43 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 10:54:43 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 10:54:43 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 10:54:43 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 10:54:44 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 10:54:44 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 10:54:46 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 10:54:46 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 10:54:46 INFO  CucumberHooks:61 - Status of test 1 is: FAILED
+2020-09-22 10:54:46 INFO  CucumberHooks:62 - Passed tests: 0, Failed tests: 1
+2020-09-22 11:01:11 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 11:01:11 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 11:01:11 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 11:01:11 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 11:01:11 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 11:01:11 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 11:01:11 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 11:01:13 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 11:01:13 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 11:01:15 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 11:01:15 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 11:01:15 INFO  CucumberHooks:61 - Status of test 1 is: FAILED
+2020-09-22 11:01:15 INFO  CucumberHooks:62 - Passed tests: 0, Failed tests: 1
+2020-09-22 11:21:11 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 11:21:11 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 11:21:11 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 11:21:11 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 11:21:11 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 11:21:11 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 11:21:11 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 11:21:12 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 11:21:12 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 11:21:14 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 11:21:14 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 11:21:14 INFO  CucumberHooks:61 - Status of test 1 is: PASSED
+2020-09-22 11:21:14 INFO  CucumberHooks:62 - Passed tests: 1, Failed tests: 0
+2020-09-22 11:25:08 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 11:25:08 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 11:25:08 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 11:25:08 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 11:25:08 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 11:25:08 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 11:25:08 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 11:25:10 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 11:25:10 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 11:25:11 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 11:25:12 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 11:25:12 INFO  CucumberHooks:61 - Status of test 1 is: PASSED
+2020-09-22 11:25:12 INFO  CucumberHooks:62 - Passed tests: 1, Failed tests: 0
+2020-09-22 11:26:35 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 11:26:35 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-09-22 11:26:35 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-09-22 11:26:35 DEBUG ResolutionCache:183 - Resolution chrome=85 in cache (valid until 22:37:39 22/09/2020 EDT)
+2020-09-22 11:26:35 INFO  WebDriverManager:571 - Using chromedriver 85.0.4183.87 (since Chrome 85 is installed in your machine)
+2020-09-22 11:26:35 DEBUG WebDriverManager:520 - Driver chromedriver 85.0.4183.87 found in cache
+2020-09-22 11:26:35 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/denis/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver
+2020-09-22 11:26:36 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 11:26:36 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 11:26:38 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 11:26:38 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 11:26:38 INFO  CucumberHooks:61 - Status of test 1 is: PASSED
+2020-09-22 11:26:38 INFO  CucumberHooks:62 - Passed tests: 1, Failed tests: 0
+2020-09-22 18:53:19 INFO  CucumberHooks:31 - ::: Starting automation :::
+2020-09-22 18:53:23 INFO  CucumberHooks:41 - Browser: chrome
+2020-09-22 18:53:23 INFO  CucumberHooks:42 - url: http://zero.webappsecurity.com/
+2020-09-22 18:53:25 INFO  CucumberHooks:67 - ::: Ending automation :::
+2020-09-22 18:53:25 INFO  CucumberHooks:60 - Number of completed tests: 1
+2020-09-22 18:53:25 INFO  CucumberHooks:61 - Status of test 1 is: PASSED
+2020-09-22 18:53:25 INFO  CucumberHooks:62 - Passed tests: 1, Failed tests: 0
