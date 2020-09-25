@@ -3,4 +3,5 @@
 **/*.iml
 **/out
 ajcore.*
+**/.log
 **/log

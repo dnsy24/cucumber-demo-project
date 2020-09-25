@@ -1,10 +1,8 @@
 package com.company.services.utilities;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-// TODO: FIS не может найти config.properties file
 
 public final class ConfigurationReader {
 
@@ -13,8 +11,8 @@ public final class ConfigurationReader {
     private ConfigurationReader() {
         properties = new Properties();
         try {
-            properties.load(new FileInputStream("/src/main/resources/config/config.properties"));
-//            properties.load(this.getClass().getClassLoader().getResourceAsStream("/config.properties"));
+//            properties.load(new FileInputStream("../test-common/src/main/resources/config/config.properties"));
+            properties.load(this.getClass().getClassLoader().getResourceAsStream("config/config.properties"));
         } catch (IOException e) {
             System.err.println("File upload failed");
             e.printStackTrace();

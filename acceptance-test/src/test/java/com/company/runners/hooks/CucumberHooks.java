@@ -3,6 +3,9 @@ package com.company.runners.hooks;
 import com.company.configuration.Driver;
 import com.company.configuration.WebDriverFactory;
 import com.company.services.attachments.Attach;
+import com.company.services.pages.HomePage;
+import com.company.services.pages.LandingPage;
+import com.company.services.pages.OnlineBankingPage;
 import com.company.services.utilities.owner.ConfigurationProvider;
 import com.company.services.utilities.ConfigurationReader;
 import io.cucumber.java.*;
@@ -24,7 +27,8 @@ public class CucumberHooks {
         String browser1 = ConfigurationProvider.getInstance().getConfiguration().browserName();
         System.out.println("Browser name from owner: " + browser1);
 
-        PropertyConfigurator.configure("src/test/resources/log4j.properties");
+//        PropertyConfigurator.configure("/test-common/src/main/resources/log/log4j.properties");
+        PropertyConfigurator.configure(this.getClass().getClassLoader().getResourceAsStream("log/log4j.properties"));
         LOGGER.info("::: Starting automation :::");
         String browser = ConfigurationReader.getInstance().getProperty("browser.name");
         String url = ConfigurationReader.getInstance().getProperty("url");
@@ -56,6 +60,9 @@ public class CucumberHooks {
 
     @After
     public void tearDownScenario() {
+        LandingPage.refresh();
+        HomePage.refresh();
+        OnlineBankingPage.refresh();
         LOGGER.info("::: Ending automation :::");
         Driver.getInstance().getDriver().close();
     }

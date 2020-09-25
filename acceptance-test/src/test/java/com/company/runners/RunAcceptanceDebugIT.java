@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "@target/rerun.txt",
-        glue = "com/company/step/definitions"
+        glue = {"com/company/stepDefs", "com/company/runners/hooks"}
 )
 public class RunAcceptanceDebugIT {
 }

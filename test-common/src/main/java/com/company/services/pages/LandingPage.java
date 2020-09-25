@@ -54,4 +54,8 @@ public class LandingPage extends AbstractBasePage {
         }
         return instance;
     }
+
+    public static void refresh() {
+        instance = null;
+    }
 }

@@ -2,6 +2,7 @@ package com.company.services.pages;
 
 import com.company.configuration.Driver;
 import com.company.services.utilities.ConfigurationReader;
+import com.company.services.utilities.selenium.PageLoadValidator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static com.company.services.utilities.selenium.PageLoadValidator.waitPageForLoad;
 import static org.openqa.selenium.By.xpath;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
@@ -35,6 +37,7 @@ public class OnlineBankingPage extends AbstractBasePage {
     }
 
     public String getPageTitle() {
+        waitPageForLoad();
         return Driver.getInstance().getDriver().getTitle();
     }
 
@@ -45,4 +48,18 @@ public class OnlineBankingPage extends AbstractBasePage {
         }
         return instance;
     }
+
+    public static void refresh() {
+        instance = null;
+    }
 }
+
+
+//  TODO:
+//    public static OnlineBankingPage onlineBankingPage2() {
+//        if (instance == null || !instance.driver.equals(Driver.getInstance().getDriver())) {
+//            instance = new OnlineBankingPage(Integer.parseInt(ConfigurationReader.getInstance()
+//                    .getProperty("explicit.wait")));
+//        }
+//        return instance;
+//    }
