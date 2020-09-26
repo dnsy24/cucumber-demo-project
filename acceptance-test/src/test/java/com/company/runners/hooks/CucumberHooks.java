@@ -31,7 +31,7 @@ public class CucumberHooks {
         String browser1 = ConfigurationProvider.getInstance().getConfiguration().browserName();
         System.out.println("Browser name from owner: " + browser1);
 
-        PropertyConfigurator.configure(this.getClass().getClassLoader().getResourceAsStream("log/log4j.properties"));
+//        PropertyConfigurator.configure(this.getClass().getClassLoader().getResourceAsStream("log/log4j.properties"));
         LOGGER.info("::: Starting automation :::");
         String browser = ConfigurationReader.getInstance().getProperty("browser.name");
         String url = ConfigurationReader.getInstance().getProperty("url");

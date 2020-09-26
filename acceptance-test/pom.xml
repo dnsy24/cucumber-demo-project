@@ -30,6 +30,12 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.jupiter.version}</version>
         </dependency>
+        <!-- JUnit Vintage -->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>${junit-vintage.version}</version>
+        </dependency>
         <!-- Cucumber Java -->
         <dependency>
             <groupId>io.cucumber</groupId>

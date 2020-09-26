@@ -32,6 +32,7 @@
         <cucumber-junit.version>6.2.2</cucumber-junit.version>
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <junit.version>4.12</junit.version>
+        <junit-vintage.version>5.7.0</junit-vintage.version>
         <selenium.version>3.141.59</selenium.version>
         <hamcrest.version>2.1</hamcrest.version>
         <webdrivermanager.version>4.0.0</webdrivermanager.version>
@@ -66,6 +67,12 @@
                 <artifactId>cucumber-junit</artifactId>
                 <version>${cucumber-junit.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <!-- JUnit Vintage -->
+            <dependency>
+                <groupId>org.junit.vintage</groupId>
+                <artifactId>junit-vintage-engine</artifactId>
+                <version>${junit-vintage.version}</version>
             </dependency>
             <!-- Selenium -->
             <dependency>

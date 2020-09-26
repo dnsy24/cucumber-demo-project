@@ -5,7 +5,7 @@ Feature: ZeroBank multiple features
   Background: Login to http://zero.webappsecurity.com account with valid credentials
     Given User on start page
     When User clicks sign in button
-#    Data table to List<String>
+#    User object to List<String> and @DataTableType
     When User enters valid email and password
       | email    | password |
       | username | password |
