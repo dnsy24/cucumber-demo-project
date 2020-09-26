@@ -2,7 +2,6 @@ package com.company.services.pages;
 
 import com.company.configuration.Driver;
 import com.company.services.utilities.ConfigurationReader;
-import com.company.services.utilities.selenium.PageLoadValidator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;

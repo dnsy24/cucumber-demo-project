@@ -45,111 +45,111 @@
         <log4j.version>1.2.17</log4j.version>
     </properties>
 
-<dependencyManagement>
-    <dependencies>
-        <!-- JUnit Jupiter -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Cucumber Java -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>${cucumber-java.version}</version>
-        </dependency>
-        <!-- Cucumber JUnit -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>${cucumber-junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Selenium -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
-        <!-- WebDriver Manager -->
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>${webdrivermanager.version}</version>
-            <!--            <scope>test</scope>-->
-        </dependency>
-        <!-- Jackson-Core -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson-core.version}</version>
-        </dependency>
-        <!-- Jackson Data Bind-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson-core.version}</version>
-        </dependency>
-        <!-- Jackson Annotations -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>${jackson-core.version}</version>
-        </dependency>
-        <!-- CommonsIO-->
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>${commons-io.version}</version>
-        </dependency>
-        <!-- Owner -->
-        <dependency>
-            <groupId>org.aeonbits.owner</groupId>
-            <artifactId>owner</artifactId>
-            <version>${owner.version}</version>
-        </dependency>
-        <!-- Awaitility -->
-        <dependency>
-            <groupId>org.awaitility</groupId>
-            <artifactId>awaitility</artifactId>
-            <version>${awaitility.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Awaitility Proxy -->
-        <dependency>
-            <groupId>org.awaitility</groupId>
-            <artifactId>awaitility-proxy</artifactId>
-            <version>${awaitility-proxy.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <!-- Slf4j -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <!-- Log4j -->
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <!-- JUnit Jupiter -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.jupiter.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Cucumber Java -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>${cucumber-java.version}</version>
+            </dependency>
+            <!-- Cucumber JUnit -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-junit</artifactId>
+                <version>${cucumber-junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Selenium -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>${selenium.version}</version>
+            </dependency>
+            <!-- WebDriver Manager -->
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>${webdrivermanager.version}</version>
+                <!--            <scope>test</scope>-->
+            </dependency>
+            <!-- Jackson-Core -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson-core.version}</version>
+            </dependency>
+            <!-- Jackson Data Bind-->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson-core.version}</version>
+            </dependency>
+            <!-- Jackson Annotations -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson-core.version}</version>
+            </dependency>
+            <!-- CommonsIO-->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <!-- Owner -->
+            <dependency>
+                <groupId>org.aeonbits.owner</groupId>
+                <artifactId>owner</artifactId>
+                <version>${owner.version}</version>
+            </dependency>
+            <!-- Awaitility -->
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility</artifactId>
+                <version>${awaitility.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Awaitility Proxy -->
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility-proxy</artifactId>
+                <version>${awaitility-proxy.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- Slf4j -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <!-- Log4j -->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
@@ -163,22 +163,23 @@
                     <encoding>${encoding.version}</encoding>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
-                <configuration>
-                    <includes>
-                        <include>**/*ParallelRunner*.java</include>
-                    </includes>
-                    <testFailureIgnore>true</testFailureIgnore>
-                    <runOrder>alphabetical</runOrder>
-                    <parallel>methods</parallel>
-                    <threadCount>2</threadCount>
-                    <perCoreThreadCount>false</perCoreThreadCount>
-                    <forkCount>2C</forkCount>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <version>${maven-surefire-plugin.version}</version>-->
+<!--                <configuration>-->
+<!--                    <includes>-->
+<!--                        <include>**/*ParallelRunner*.java</include>-->
+<!--                        <include>**/RunAcceptanceIT.java</include>-->
+<!--                    </includes>-->
+<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+<!--                    <runOrder>alphabetical</runOrder>-->
+<!--                    <parallel>methods</parallel>-->
+<!--                    <threadCount>2</threadCount>-->
+<!--                    <perCoreThreadCount>false</perCoreThreadCount>-->
+<!--                    <forkCount>2C</forkCount>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>

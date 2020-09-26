@@ -9,5 +9,5 @@ import org.junit.runner.RunWith;
         features = "@target/rerun.txt",
         glue = {"com/company/stepDefs", "com/company/runners/hooks"}
 )
-public class RunAcceptanceDebugIT {
+public class RunAcceptanceDebugTest {
 }

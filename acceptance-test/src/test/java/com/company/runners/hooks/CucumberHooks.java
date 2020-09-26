@@ -11,7 +11,11 @@ import com.company.services.utilities.ConfigurationReader;
 import io.cucumber.java.*;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
+import static com.company.services.attachments.Attach.refresh;
+import static com.company.services.attachments.Attach.screenshot;
 
 
 public class CucumberHooks {
@@ -27,7 +31,6 @@ public class CucumberHooks {
         String browser1 = ConfigurationProvider.getInstance().getConfiguration().browserName();
         System.out.println("Browser name from owner: " + browser1);
 
-//        PropertyConfigurator.configure("/test-common/src/main/resources/log/log4j.properties");
         PropertyConfigurator.configure(this.getClass().getClassLoader().getResourceAsStream("log/log4j.properties"));
         LOGGER.info("::: Starting automation :::");
         String browser = ConfigurationReader.getInstance().getProperty("browser.name");
@@ -42,7 +45,12 @@ public class CucumberHooks {
 
     @After
     public void takeScreenShotIfFailed(Scenario scenario) {
-        Attach.screenshot().attachScreenShotIfFailed(scenario);
+        if (scenario.isFailed()) {
+//            byte[] screenshot = ((TakesScreenshot) Driver.getInstance().getDriver()).getScreenshotAs(OutputType.BYTES);
+//            scenario.attach(screenshot, "image/png", scenario.getName());
+            screenshot().attachScreenShotIfFailed(scenario);
+            refresh();
+        }
     }
 
     @After
