@@ -28,13 +28,12 @@ public class CucumberHooks {
 
     @Before
     public void setUpScenario() {
-        String browser1 = ConfigurationProvider.getInstance().getConfiguration().browserName();
-        System.out.println("Browser name from owner: " + browser1);
-
 //        PropertyConfigurator.configure(this.getClass().getClassLoader().getResourceAsStream("log/log4j.properties"));
         LOGGER.info("::: Starting automation :::");
-        String browser = ConfigurationReader.getInstance().getProperty("browser.name");
-        String url = ConfigurationReader.getInstance().getProperty("url");
+//        String browser = ConfigurationReader.getInstance().getProperty("browser.name");
+        String browser = ConfigurationProvider.getInstance().getConfiguration().browserName();
+//        String url = ConfigurationReader.getInstance().getProperty("url");
+        String url = ConfigurationProvider.getInstance().getConfiguration().siteUrl();
         Driver.getInstance().setDriver(WebDriverFactory.getInstance()
                 .createDriver(browser));
         LOGGER.info("Browser: " + browser);
