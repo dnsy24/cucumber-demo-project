@@ -3,6 +3,7 @@ package com.company.services.utilities.owner;
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.Sources;
 
+//@Sources({"classpath:env/${env}.properties"})
 @Sources({"classpath:env/qa.properties"})
 public interface Configurator extends Config {
 

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                   "json:target/cucumber.json",
                   "rerun:target/rerun.txt"},
         features = "src/test/resources/features/login.feature",
-        glue = {"com/company/stepDefs", "com/company/runners/hooks"},
+        glue = {"com/company/stepDefs", "com/company/runners/hooks", "com/company/models"},
         tags = "@ABC-123"
 )
 

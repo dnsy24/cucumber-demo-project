@@ -45,3 +45,7 @@ Feature: ZeroBank multiple features
       | Pay Bills         | Zero - Pay Bills         |
       | My Money Map      | Zero - My Money Map      |
       | Online Statements | Zero - Online Statements |
+
+  @test4
+  Scenario Outline: User logs in with valid and invalid credentials
+    Examples:

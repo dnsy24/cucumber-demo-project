@@ -38,6 +38,7 @@
         <webdrivermanager.version>4.0.0</webdrivermanager.version>
         <jackson-core.version>2.11.1</jackson-core.version>
         <commons-io.version>2.6</commons-io.version>
+        <apache-poi.version>4.1.2</apache-poi.version>
         <owner.version>1.0.11</owner.version>
         <awaitility.version>4.0.3</awaitility.version>
         <awaitility-proxy.version>3.1.6</awaitility-proxy.version>
@@ -110,6 +111,12 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
+            </dependency>
+            <!-- Apache POI-->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${apache-poi.version}</version>
             </dependency>
             <!-- Owner -->
             <dependency>

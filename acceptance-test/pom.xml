@@ -135,15 +135,15 @@
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
                     <includes>
-<!--                        <include>**/*ParallelRunner*.java</include>-->
+                        <include>**/*ParallelRunner*.java</include>
                         <include>**/RunAcceptanceIT.java</include>
                     </includes>
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
-<!--                    <runOrder>alphabetical</runOrder>-->
-<!--                    <parallel>methods</parallel>-->
-<!--                    <threadCount>2</threadCount>-->
-<!--                    <perCoreThreadCount>false</perCoreThreadCount>-->
-<!--                    <forkCount>2C</forkCount>-->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <runOrder>alphabetical</runOrder>
+                    <parallel>methods</parallel>
+                    <threadCount>2</threadCount>
+                    <perCoreThreadCount>false</perCoreThreadCount>
+                    <forkCount>2C</forkCount>
                 </configuration>
             </plugin>
             <plugin>
