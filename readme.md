@@ -1,2 +1,2 @@
 ## To run test from maven command line:
-### mvn -Denv=qa test
+mvn -Denv=qa test
