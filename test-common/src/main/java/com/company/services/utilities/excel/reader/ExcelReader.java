@@ -1,140 +1,124 @@
 package com.company.services.utilities.excel.reader;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.LinkedList;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.*;
 
 public class ExcelReader {
 
-    private String fileName;
-    private String sheetName;
-    private int sheetIndex;
-    private XSSFWorkbook book;
+    private Sheet workSheet;
+    private Workbook workBook;
+    private String path;
 
-    private ExcelReader(ExcelReaderBuilder excelReaderBuilder) {
-        this.fileName = excelReaderBuilder.fileName;
-        this.sheetIndex = excelReaderBuilder.sheetIndex;
-        this.sheetName = excelReaderBuilder.sheetName;
-    }
-
-    public static class ExcelReaderBuilder {
-
-        private String fileName;
-        private String sheetName;
-        private int sheetIndex;
-
-        public ExcelReaderBuilder setFileLocation(String location) {
-            this.fileName = location;
-            return this;
-        }
-
-        public ExcelReaderBuilder setSheet(String sheetName) {
-            this.sheetName = sheetName;
-            return this;
-        }
-
-        public ExcelReaderBuilder setSheet(int index) {
-            this.sheetIndex = index;
-            return this;
-        }
-
-        public ExcelReader build() {
-            return new ExcelReader(this);
-        }
-
-    }
-
-    private XSSFWorkbook getWorkBook(String filePath) throws InvalidFormatException, IOException {
-        return new XSSFWorkbook(new File(filePath));
-    }
-
-    private XSSFSheet getWorkBookSheet(String fileName, String sheetName) throws InvalidFormatException, IOException {
-        this.book = getWorkBook(fileName);
-        return this.book.getSheet(sheetName);
-    }
-
-    private XSSFSheet getWorkBookSheet(String fileName, int sheetIndex) throws InvalidFormatException, IOException {
-        this.book = getWorkBook(fileName);
-        return this.book.getSheetAt(sheetIndex);
-    }
-
-    public List<List<String>> getSheetData() throws IOException {
-        XSSFSheet sheet;
-        List<List<String>> outerList = new LinkedList<>();
-
+    public ExcelReader(String path, String sheetName) {
+        this.path = path;
         try {
-            sheet = getWorkBookSheet(fileName, sheetName);
-            outerList = getSheetData(sheet);
-        } catch (InvalidFormatException e) {
-            throw new RuntimeException(e.getMessage());
-        }finally {
-            this.book.close();
+            // Open the Excel file
+            FileInputStream ExcelFile = new FileInputStream(path);
+            // Access the required test data sheet
+            workBook = WorkbookFactory.create(ExcelFile);
+            workSheet = workBook.getSheet(sheetName);
+            // check if sheet is null or not. null means  sheetname was wrong
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
-        return outerList;
     }
 
-    public List<List<String>> getSheetDataAt() throws InvalidFormatException, IOException {
-
-        XSSFSheet sheet;
-        List<List<String>> outerList = new LinkedList<>();
-
+    public String getCellData(int rowNum, int colNum) {
+        Cell cell;
         try {
-            sheet = getWorkBookSheet(fileName, sheetIndex);
-            outerList = getSheetData(sheet);
-        } catch (InvalidFormatException e) {
-            throw new RuntimeException(e.getMessage());
-        }finally {
-            this.book.close();
+            cell = workSheet.getRow(rowNum).getCell(colNum);
+            return cell.toString();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
-        return outerList;
     }
 
-    private List<List<String>> getSheetData(XSSFSheet sheet) {
-        List<List<String>> outerList = new LinkedList<>();
-        prepareOutterList(sheet, outerList);
-        return Collections.unmodifiableList(outerList);
-    }
+    public String[][] getDataArray() {
 
-    private void prepareOutterList(XSSFSheet sheet, List<List<String>> outerList) {
-        for (int i = sheet.getFirstRowNum(); i <= sheet.getLastRowNum(); i++) {
-            List<String> innerList = new LinkedList<>();
-            XSSFRow xssfRow = sheet.getRow(i);
+        String[][] data = new String[rowCount()][columnCount()];
 
-            for (int j = xssfRow.getFirstCellNum(); j < xssfRow.getLastCellNum(); j++) {
-                prepareInnerList(innerList, xssfRow, j);
+        for (int i = 0; i < rowCount(); i++) {
+            for (int j = 0; j < columnCount(); j++) {
+                String value = getCellData(i, j);
+                data[i][j] = value;
             }
-            outerList.add(Collections.unmodifiableList(innerList));
+        }
+        return data;
+
+    }
+
+    public List<Map<String, String>> getDataList() {
+        // get all columns
+        List<String> columns = getColumnsNames();
+        // this will be returned
+        List<Map<String, String>> data = new ArrayList<>();
+
+        for (int i = 1; i < rowCount(); i++) {
+            // get each row
+            Row row = workSheet.getRow(i);
+            // create map of the row using the column and value
+            // column map key, cell value --> map bvalue
+            Map<String, String> rowMap = new HashMap<String, String>();
+            for (Cell cell : row) {
+                int columnIndex = cell.getColumnIndex();
+                rowMap.put(columns.get(columnIndex), cell.toString());
+            }
+
+            data.add(rowMap);
+        }
+
+        return data;
+    }
+
+    public List<String> getColumnsNames() {
+        List<String> columns = new ArrayList<>();
+
+        for (Cell cell : workSheet.getRow(0)) {
+            columns.add(cell.toString());
+        }
+        return columns;
+    }
+
+    public void setCellData(String value, int rowNum, int colNum) {
+        Cell cell;
+        Row row;
+
+        try {
+            row = workSheet.getRow(rowNum);
+            cell = row.getCell(colNum);
+
+            if (cell == null) {
+                cell = row.createCell(colNum);
+                cell.setCellValue(value);
+            } else {
+                cell.setCellValue(value);
+            }
+            FileOutputStream fileOut = new FileOutputStream(path);
+            workBook.write(fileOut);
+
+            fileOut.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
-    private void prepareInnerList(List<String> innerList, XSSFRow xssfRow, int j) {
-        switch (xssfRow.getCell(j).getCellTypeEnum()) {
-
-            case BLANK:
-                innerList.add("");
-                break;
-
-            case STRING:
-                innerList.add(xssfRow.getCell(j).getStringCellValue());
-                break;
-
-            case NUMERIC:
-                innerList.add(xssfRow.getCell(j).getNumericCellValue() + "");
-                break;
-
-            case BOOLEAN:
-                innerList.add(xssfRow.getCell(j).getBooleanCellValue() + "");
-                break;
-
-            default:
-                throw new IllegalArgumentException("Cannot read the column : " + j);
-        }
+    public void setCellData(String value, String columnName, int row) {
+        int column = getColumnsNames().indexOf(columnName);
+        setCellData(value, row, column);
     }
+
+    public int columnCount() {
+        return workSheet.getRow(0).getLastCellNum();
+    }
+
+    public int rowCount() {
+        return workSheet.getLastRowNum() + 1;
+    }
+
 }

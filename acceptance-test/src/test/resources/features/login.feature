@@ -1,4 +1,4 @@
-@ABC-123 @smoke
+@smoke @PO18-99
 Feature: ZeroBank multiple features
   Agile story: User should login with valid credentials
 
@@ -12,7 +12,7 @@ Feature: ZeroBank multiple features
     When User go to Home page
 
 
-  @test1
+  @test1 @PO18-98
   Scenario: Login to http://zero.webappsecurity.com account with valid credentials
     Then User should see settings icon
 
